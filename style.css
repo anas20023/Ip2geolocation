@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#main {
+  display: block;
+  margin: 40px 35%;
+}
+label{
+  color: #ffffff;
+}
+.info {
+
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color:rgb(55, 55, 55);
+  background-color: #ffffff;
+}
+#map {
+  height: 400px;
+  margin: 0 auto;
+  width: 1200px;
+  
+}
+button {
+  padding: 8px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+}
+input[type="text"] {
+  height: 36px;
+}
+button:hover {
+  border: 1px solid rgb(55, 55, 55);
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(55, 55, 55);
+}
+
+input[type="text"]:active {
+  border: none;
+  
+}

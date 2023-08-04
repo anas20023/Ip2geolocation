@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IP Address Location</title>
+    <!-- Include Leaflet.js library and CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="main">
+      <label for="ip-input">Enter IP Address:</label>
+      <input type="text" id="ip-input" />
+      <button onclick="getLocationByIP()">Get Location</button>
+    </div>
+    <div id="map"></div>
+    <div id="location-info" class="info"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
