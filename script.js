@@ -1,6 +1,6 @@
 // Function to get location data based on the provided IP address
 function getLocationData(ipAddress) {
-  const apiKey = 'api_key_here'; // Replace with your actual API key
+  const apiKey = 'ade16615796e8e44295f8993c369134b'; // Replace with your actual API key
   const url = `http://api.ipstack.com/${ipAddress}?access_key=${apiKey}`;
 
   return fetch(url)
